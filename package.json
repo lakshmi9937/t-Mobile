@@ -1,0 +1,25 @@
+{
+  "name": "playwright_cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --format json:cucumber_report.json",
+    "generate-report": "npx node_modules/cucumber-html-reporter -o cucumber_report.html -i cucumber_report.json",
+    "open-report": "start cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19",
+    "chai": "^5.1.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "ts": "^0.2.2"
+  }
+}

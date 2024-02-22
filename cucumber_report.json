@@ -1,0 +1,231 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-filters-section-on-t-mobile-tablets-page;apply-filters-and-validate-results",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Apply filters and validate results",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User open the browser and navigate to the URL",
+            "match": {
+              "location": "src\\test\\steps\\filterSteps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30021757899,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- navigating to \"https://www.t-mobile.com/tablets\", waiting until \"load\"\u001b[22m\n\n    at Filter.navigateToUrl (C:\\Users\\LAKSHMI\\Downloads\\playwright_cucumber\\playwright_cucumber\\src\\pages\\Filter.ts:43:32)\n    at World.<anonymous> (C:\\Users\\LAKSHMI\\Downloads\\playwright_cucumber\\playwright_cucumber\\src\\test\\steps\\filterSteps.ts:11:16)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Filter Type",
+                      "Filter Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Operating System",
+                      "Android"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Brands",
+                      "Apple, Samsung"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Deals",
+                      "Special offer"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User applies filters with the following criteria",
+            "match": {
+              "location": "src\\test\\steps\\filterSteps.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Filter Type",
+                      "Filter Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Operating System",
+                      "Android"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Brands",
+                      "Apple, Samsung"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Deals",
+                      "Special offer"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User validates for filters applied",
+            "match": {
+              "location": "src\\test\\steps\\filterSteps.ts:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-filters-section-on-t-mobile-tablets-page;apply-all-filters-and-validate-results",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Apply all filters and validate results",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "User open the browser and navigate to the URL",
+            "match": {
+              "location": "src\\test\\steps\\filterSteps.ts:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30012019099,
+              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- navigating to \"https://www.t-mobile.com/tablets\", waiting until \"load\"\u001b[22m\n\n    at Filter.navigateToUrl (C:\\Users\\LAKSHMI\\Downloads\\playwright_cucumber\\playwright_cucumber\\src\\pages\\Filter.ts:43:32)\n    at World.<anonymous> (C:\\Users\\LAKSHMI\\Downloads\\playwright_cucumber\\playwright_cucumber\\src\\test\\steps\\filterSteps.ts:11:16)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Filter Type",
+                      "Filter Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Deals",
+                      "Special offer, New"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Brands",
+                      "Alcatel, Apple, Samsung, T-Mobile®, TCL"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Operating System",
+                      "Android, iPadOS, Other"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User applies filters with the following criteria",
+            "match": {
+              "location": "src\\test\\steps\\filterSteps.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Filter Type",
+                      "Filter Value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Deals",
+                      "Special offer, New"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Brands",
+                      "Alcatel, Apple, Samsung, T-Mobile®, TCL"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Operating System",
+                      "Android, iPadOS, Other"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User validates for filters applied",
+            "match": {
+              "location": "src\\test\\steps\\filterSteps.ts:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-filters-section-on-t-mobile-tablets-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validate Filters section on T-Mobile tablets page",
+    "tags": [],
+    "uri": "src\\test\\features\\Filters.feature"
+  }
+]

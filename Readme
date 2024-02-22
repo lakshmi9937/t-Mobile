@@ -1,0 +1,19 @@
+
+
+npm install (Install dependencies)
+npm run test (run test)
+npm run open-report (open cucumber report)
+
+
+
+
+
+# install playwrighttest
+# install cucumber
+# npm i @cucumber/cucumber -D
+# npm i ts -node -D
+# npm install ts-node --save-dev
+# npm install --save-dev cucumber-html-reporter
+# npm install -g cucumber-html-reporter
+# npm install -g npm@latest
+# npm install chai --save-dev
